@@ -1,0 +1,20 @@
+
+
+.Footer {
+    user-select: none;
+    display: flex;
+    height: 70px;
+    padding: 0 24px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    color: #695649;
+    font-weight: 600;
+    font-size: 24px;
+    border-top: 1px solid rgba(133, 187, 101, 1);
+    background-color: rgba(118, 128, 118, 0.25);
+}
+
+.Text {
+    margin-right: 12px;
+}

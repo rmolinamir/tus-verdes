@@ -1,0 +1,63 @@
+.Wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(30%, 1fr) );
+    grid-auto-rows: 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 42px;
+    margin: 18px auto 42px;
+}
+
+@media (max-width: 1260px) {
+    .Wrapper {
+        grid-template-columns: repeat( auto-fit, minmax(33%, 1fr) );
+    }
+}
+
+@media (max-width: 944px) {
+    .Wrapper {
+        grid-template-columns: repeat( auto-fit, minmax(100%, 1fr) );
+    }
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;  
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.Title {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: left;
+    width: 100%;
+    line-height: 26px;
+    margin: 0 0 12px;
+    padding: 0 12px 12px;
+    user-select: none;
+    color: #695649;
+}
+
+.Title h1 {
+    display: inline;
+    font-weight: normal;
+}
+
+.Currency {
+    margin: 0 6px;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+    color: #695649;
+    font-size: 24px;
+}
+
+.Prices {
+    width: 100%;
+    border-top: 1px solid rgba(133, 187, 101, 0.5);
+    border-bottom: 1px solid rgba(133, 187, 101, 0.5);
+}

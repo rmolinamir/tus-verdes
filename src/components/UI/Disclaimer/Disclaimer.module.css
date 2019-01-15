@@ -1,0 +1,32 @@
+.Container {
+    position: absolute;
+    bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: #768076;
+    font-size: 14px;
+    user-select: none;
+}
+
+@media (max-width: 544px) {
+    .Container {
+        bottom: 1px;
+    }
+}
+
+.Icon svg {
+    width: 6px;
+    height: 12px;
+    margin-right: 4px
+}
+
+.Text {
+    color: #768076;
+}
+
+.Link {
+    text-decoration: none;
+    color: #a6cc70;
+}

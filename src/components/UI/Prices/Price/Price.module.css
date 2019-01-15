@@ -1,0 +1,36 @@
+.Container {
+    width: 100%;
+    margin: 12px 0;
+    font-size: 17px;
+    padding: 0 24px;
+}
+
+.Display {
+    font-size: 17px;
+}
+
+.Price {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #695649;
+    font-weight: bold;
+}
+
+.Tendency {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 380px) {
+    .Price {
+        flex-flow: column;
+        align-items: flex-start;
+    }
+    .Price > span {
+        margin-bottom: 6px;
+    }
+}

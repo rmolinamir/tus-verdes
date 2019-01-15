@@ -1,0 +1,54 @@
+.Arrow {
+    display: inline-flex;
+    width: 20px;
+    height: 12px;
+    margin: 0 3px;
+}
+
+@media (max-width:380px) {
+    .Arrow {
+        width: 12px;
+        margin-left: 0;
+        margin-right: 6px;
+}
+}
+
+.Info {
+    text-align: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.Difference {
+    margin-right: 3px;
+    color: inherit;
+}
+
+.Percentage {
+    color: inherit;
+}
+
+.Up {
+    color: #d23f31;
+}
+
+.Down {
+    color: #0f9d58;
+}
+
+.Up svg {
+    transform: scale(1, -1);
+    fill: #D80027;
+}
+
+.Down svg {
+    fill: #51C200;
+}
+
+.Arrow svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,30 @@
+.Container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 70px;
+    padding: 0 24px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    color: #695649;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+@media (max-width: 520px) {
+    .Container {
+        font-size: 18px;
+    }
+}
+
+.Text {
+    margin: 12px 0;
+}
+
+.Refresh {
+    cursor: pointer;
+    margin: 12px 0;
+}
